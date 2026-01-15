@@ -34,6 +34,12 @@ nav h3{
 /* banner section */
 .banner-container{
     display: flex;
+    justify-content: space-around;
+}
+.banner-image{
+    height: 475px;
+    width: 475px;
+    background-image: url(/images/Circle\ design.svg) ;
 }
 .banner-content h1{
      font-weight: bold;
@@ -55,8 +61,113 @@ nav h3{
    background-color: #E02C6D;
    border-radius: 41px;
 }
+.button-content button p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+}
 .button-content button img{
     height: 24px;
     width: 24px;
    padding: 15px;
 }
+
+/* sponsor section */
+.sponsor-container{
+    border: 1px solid #3a3a3a18;
+    max-width: 1110px;
+    height: 110px;
+    justify-items: center;
+   margin: 0 auto;
+    margin-top: 69px;
+    margin-bottom: 100px;
+}
+.sponsor-companys{
+    display: flex;
+ margin: 36px 31px;
+ width: 987px;
+ justify-items: center;
+
+}
+.sponsor-companys img{
+    margin-right: 61px;
+}
+
+/* cards section style */
+.card-section{
+    /* border: 1px solid ; */
+    max-width: 1047px;
+    height: 1662px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+}
+.card-title{
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    /* line-height: 70; */
+    color: #3A3A3A;
+    height: 70px;
+    margin-bottom: 30px;
+}
+.card{
+    width: 329px;
+    height: 476px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.card img{
+    margin: 16px 14px;
+    border-radius: 5px;
+}
+.card h5{
+    font-size: 1.75rem;
+    font-weight: 500;
+    /* height: 40px; */
+    margin-top: 16px;
+    margin-bottom: 6px;
+    margin-left: 14px;
+    color: #18191F;
+}
+.doller{
+    font-size: 1.5rem;
+    color: #000000;
+    margin-top: 6px;
+    margin-bottom: 0;
+    margin-left: 14px;
+}
+.doller-text{
+    font-size: 0.675rem;
+    font-weight: bold;
+    color: #787885;
+    margin-left: 14px;
+}
+.see-more{
+    width: 99px;
+    height: 24px;
+    display: flex;
+    
+}
+.see-more p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(224, 44, 109, 0.87);
+    height: 24px;
+    width: 75px;
+    margin: 0;
+
+}
+.see-more img{
+    width: 16px;
+    height: 14px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+/* feature section */
