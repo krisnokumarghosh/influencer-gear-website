@@ -11,12 +11,7 @@
 }
 
 /* shared style */
-button:hover{
-    cursor: pointer;
-    border: 1px solid #E02C6D;
-    background-color: transparent;
-    color: #E02C6D;
-}
+
 
 /* nav section */
 nav{
@@ -53,7 +48,7 @@ nav h3{
 .banner-image{
     height: 475px;
     width: 475px;
-    background-image: url(/images/Circle\ design.svg) ;
+    background-image: url(/images/Circle\ design.svg);
 }
 .banner-content h1{
      font-weight: bold;
@@ -239,4 +234,21 @@ footer{
     font-weight: bold;
     line-height: 24px;
     color: #D9DBE1;
+}
+.footer-icons{
+    margin-top: 15px;
+}
+
+.feature-content button:hover{
+    cursor: pointer;
+    background-color:transparent;
+   border: 2px solid #E02C6D;
+   color: #E02C6D;
+   transition: background-color 1s ;
+}
+.button-content button:hover{
+    cursor: pointer;
+    background-color: #0A0826;
+    transition: background-color 1s;
+    
 }
