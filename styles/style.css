@@ -171,3 +171,30 @@ nav h3{
 }
 
 /* feature section */
+.feature-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 96px;
+}
+.feature-content h2{
+    font-size: 2.375rem;
+    font-weight: bold;
+    color: #0A0826;
+    line-height: 60px;
+}
+.feature-content p{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.feature-content button{
+    border: 0 ;
+    height: 44px;
+    width: 155px;
+    background-color: #E02C6D;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+}
